@@ -11,6 +11,10 @@ while True:
         if event.type == pg.QUIT:
             pg.quit()
             exit()
+
+
+        ## Pintar o Fundo de Preto
+        screen.fill('black')
     
     pg.display.update()
     clock.tick(60)
