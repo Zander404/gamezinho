@@ -19,4 +19,4 @@ while True:
         
     
     pg.display.update()
-    clock.tick(10)
+    clock.tick(60)
