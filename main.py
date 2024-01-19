@@ -15,6 +15,7 @@ while True:
 
         ## Pintar o Fundo de Preto
         screen.fill('black')
+        
 
         
     
