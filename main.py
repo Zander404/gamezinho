@@ -1,23 +1,23 @@
-import pygame as pg 
-from sys import exit 
+import pygame as pg
+
+WIDTH, HEIGHT = 900, 500
+FPS = 60
+
+
+test_surface = pg.Surface((100,200))
+test_surface.fill("white")
 
 pg.init()
-screen = pg.display.set_mode((800,400))
-pg.display.set_caption("Runner")
+screen = pg.display.set_mode((WIDTH, HEIGHT))
+pg.display.set_caption("Gamer")
 clock = pg.time.Clock()
 
 while True:
     for event in pg.event.get():
         if event.type == pg.QUIT:
             pg.quit()
-            exit()
-
-
-        ## Pintar o Fundo de Preto
-        screen.fill('black')
-        
-
-        
+            exit
+    screen.blit(test_surface, (0,0))
     
     pg.display.update()
-    clock.tick(60)
+    clock.tick(FPS)
