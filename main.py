@@ -16,7 +16,7 @@ while True:
     for event in pg.event.get():
         if event.type == pg.QUIT:
             pg.quit()
-            exit
+            exit()
     screen.blit(test_surface, (0,0))
     
     pg.display.update()
