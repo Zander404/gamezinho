@@ -1,6 +1,6 @@
 import pygame as pg
 
-WIDTH, HEIGHT = 900, 500
+WIDTH, HEIGHT = 900, 600
 FPS = 60
 
 
