@@ -5,7 +5,7 @@ FPS = 60
 
 
 test_surface = pg.Surface((100,200))
-test_surface.fill("white")
+test_surface.fill("red")
 
 pg.init()
 screen = pg.display.set_mode((WIDTH, HEIGHT))
